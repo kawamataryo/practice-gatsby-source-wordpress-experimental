@@ -8,3 +8,6 @@ zipを落としてinstallする
 - WPGraphQLの追加
 https://github.com/wp-graphql/wp-graphql
 zipでinstallする
+
+# imageがfetchできない
+https://github.com/gatsbyjs/gatsby-source-wordpress-experimental/issues/53
