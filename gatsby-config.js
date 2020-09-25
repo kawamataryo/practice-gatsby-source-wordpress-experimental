@@ -9,6 +9,7 @@ module.exports = {
       resolve: `gatsby-source-wordpress-experimental`,
       options: {
         url: `https://makoto-acu.com/graphql`,
+        verbose: true,
       },
     },
     `gatsby-plugin-react-helmet`,
