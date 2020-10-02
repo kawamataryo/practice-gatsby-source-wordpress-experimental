@@ -19,7 +19,7 @@ exports.createPages = ({ graphql, actions }) => {
     result.data.allWpPost.nodes.forEach((node) => {
       createPage({
         path: decodeURI(node.slug),
-        component: path.resolve(`./src/templates/blog-post.js`),
+        component: path.resolve(`./src/templates/blog-post.tsx`),
         context: {
           // This is the $slug variable
           // passed to blog-post.js
