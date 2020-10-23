@@ -40,8 +40,8 @@ module.exports = {
         fileName: `./gatsby-graphql.ts`,
           documentPaths: [
           './src/**/*.{ts,tsx}',
-          './node_modules/gatsby-*/**/*.js',
-          './gatsby-node.ts',
+          './node_modules/gatsby-*/**/*.{ts,js}',
+          './gatsby-node.{ts,js}',
         ],
       }
     }
